@@ -1,0 +1,40 @@
+.container {
+  width: 20%;
+  height: 15em;
+
+  margin-top: 10em;
+
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonEnviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  width: 8em;
+  border: 1px solid grey;
+  border-radius: 25px;
+}
+
+.botonEnviar:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+p {
+margin-top: 1em;
+align-items: center;
+}
+
+input {
+  width: 80%;
+}
